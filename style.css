@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-gradiente {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    padding: 20px;
+    border-radius: 20px;
+    width: 360px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-branco {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-branco img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card-branco h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-branco p {
+    color: #555;
+    font-size: 14px;
+}
